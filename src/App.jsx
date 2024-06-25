@@ -11,6 +11,7 @@ import EatNSplit from "./componets/EatNSplit";
 import ReactQuiz from "./componets/ReactQuiz";
 import FarAway from "./componets/FarAway";
 import Experience from "./componets/Experience";
+import NotFound from "./componets/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Navigate replace to="home" />} />
+          <Route path="*" element={<NotFound />} />
           <Route element={<AppLayout />}>
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />

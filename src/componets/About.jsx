@@ -108,6 +108,7 @@ const ImageContainer = styled.div`
 `;
 const Img = styled(motion.img)`
   border-radius: 8px;
+  border-image: fill 0 linear-gradient(white, blue);
 `;
 const Bottom = styled.div`
   display: flex;
