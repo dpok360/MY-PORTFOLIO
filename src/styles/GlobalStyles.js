@@ -1,4 +1,3 @@
-import exp from "constants";
 import { createGlobalStyle } from "styled-components";
 
 const GlobatlStyles = createGlobalStyle`
