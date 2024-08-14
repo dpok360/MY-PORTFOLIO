@@ -52,7 +52,13 @@ function Contacts() {
       >
         <P>LinkedIn</P>
       </a>
-
+      <a
+        href="https://github.com/dpok360"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <P>Github</P>
+      </a>
       <a
         href="https://x.com/360Deepak"
         target="_blank"
@@ -66,7 +72,7 @@ function Contacts() {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <P>resume</P>
+        <P>Resume</P>
       </a>
     </Container>
   );
