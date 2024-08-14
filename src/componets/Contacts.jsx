@@ -68,7 +68,7 @@ function Contacts() {
       </a>
 
       <a
-        href="https://drive.google.com/file/d/1gzcZUvUB1Fcsm5m2pRsPIWrwI8v_sEZS/view?usp=sharing"
+        href="https://drive.google.com/file/d/18I3EfJGDJ3J4180U_olEKKPXzNUsJTF_/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
