@@ -3,6 +3,8 @@ import { FaCss3, FaGitAlt, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri";
 import {
+  SiExpress,
+  SiMongodb,
   SiReactquery,
   SiReactrouter,
   SiRedux,
@@ -92,6 +94,12 @@ function SkillsIcons() {
       </BoxIcon>
       <BoxIcon>
         <TbBrandFramerMotion />
+      </BoxIcon>
+      <BoxIcon>
+        <SiExpress />
+      </BoxIcon>
+      <BoxIcon>
+        <SiMongodb />
       </BoxIcon>
     </Icons>
   );

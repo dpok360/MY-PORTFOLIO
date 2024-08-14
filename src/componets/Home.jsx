@@ -135,11 +135,11 @@ function Home() {
 
         <Content>
           <P custom={2} variants={lineVariants}>
-            I'm Deepak Suryavanshi, currently exploring frontend web development
-            after gaining experience in the telecom sector. I'm passionate about
-            creating engaging user interfaces and improving digital experiences.
-            Welcome to my portfolio, where I showcase my projects and learning
-            journey!
+            I'm Deepak Suryavanshi, currently exploring frontend & backend web
+            development after gaining experience in the telecom sector. I'm
+            passionate about creating engaging user interfaces and improving
+            digital experiences. Welcome to my portfolio, where I showcase my
+            projects and learning journey!
           </P>
         </Content>
         <Hr />

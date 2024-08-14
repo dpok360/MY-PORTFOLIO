@@ -100,12 +100,7 @@ const Hr = styled.hr`
   border-radius: 5px;
   width: 80%;
 `;
-const ImageContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`;
+
 const Img = styled(motion.img)`
   border-radius: 8px;
   border-image: fill 0 linear-gradient(white, blue);
@@ -145,7 +140,7 @@ function About() {
               Deepak Suryavanshi
             </H1>
             <H2 custom={1} variants={lineVariants}>
-              Frontend Web Developer
+              Junior Full Stack Developer
             </H2>
           </Frame>
           <Frame>
@@ -160,7 +155,7 @@ function About() {
               INFO
             </H2>
             <P custom={3} variants={lineVariants}>
-              I am an aspiring front-end web developer with a strong passion for
+              I am an aspiring Fullstack Developer with a strong passion for
               learning and creating. Although I am relatively new to the field
               of web development, I have dedicated myself to mastering the
               necessary skills through self-study. My journey into web
@@ -192,29 +187,56 @@ function About() {
             </H2>
             <P custom={4} variants={lineVariants}>
               Throughout my learning journey in web development, I have immersed
-              myself in a wide range of front-end technologies and tools. This
-              has allowed me to gain both theoretical knowledge and practical,
-              hands-on experience in creating dynamic and responsive web
-              applications. Here are the skills I have developed:
+              myself in a wide range of front-end & back-end technologies and
+              tools. This has allowed me to gain both theoretical knowledge and
+              practical, hands-on experience in creating dynamic and responsive
+              web applications. Here are the skills I have developed:
             </P>
             <H2 custom={5} variants={lineVariants}>
               Programming Languages:
             </H2>
             <P custom={5} variants={lineVariants}>
-              JavaScript,HTML, CSS, Sass
+              JavaScript, HTML, CSS, Sass
             </P>
             <H2 custom={5} variants={lineVariants}>
               Libraries & Frameworks:
             </H2>
             <P custom={5} variants={lineVariants}>
-              React,Redux,Tailwind CSS, Styled Components,React
-              Router,Tanstack/React query,Recharts,Framer Motion
+              Front-End: React, Redux, Tailwind CSS, Styled Components, React
+              Router, Tanstack/React Query, Recharts, Framer Motion
+            </P>
+            <H2 custom={5} variants={lineVariants}>
+              Backend Technologies:
+            </H2>
+            <P custom={5} variants={lineVariants}>
+              Node.js, Express, Pug
+            </P>
+            <H2 custom={5} variants={lineVariants}>
+              Database & Backend Services:
+            </H2>
+            <P custom={5} variants={lineVariants}>
+              MongoDB, Mongoose, Supabase
+            </P>
+            <H2 custom={5} variants={lineVariants}>
+              Authentication & Authorization:
+            </H2>
+            <P custom={5} variants={lineVariants}>
+              JWT (JSON Web Tokens)
             </P>
             <H2 custom={5} variants={lineVariants}>
               Tools & Platforms:
             </H2>
             <P custom={5} variants={lineVariants}>
-              Git, GitHub, Netlify, Vercel, Supabase, Webpack,Vite
+              Version Control: Git, GitHub
+            </P>
+            <P custom={5} variants={lineVariants}>
+              API Testing: Postman, Thunder Client
+            </P>
+            <P custom={5} variants={lineVariants}>
+              Development Tools: Webpack, Vite, Parcel
+            </P>
+            <P custom={5} variants={lineVariants}>
+              Deployment & Hosting: Netlify, Vercel
             </P>
           </Frame>
         </ContentFrame>

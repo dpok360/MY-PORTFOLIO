@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import styled from "styled-components";
 import Resume from "./Resume";
@@ -173,20 +173,6 @@ function Experience() {
   const [expanded3, setExpanded3] = useState(false);
   const [expanded4, setExpanded4] = useState(false);
 
-  const toggleCollapse1 = () => {
-    setIsOpen1(!isOpen1);
-  };
-
-  const toggleCollapse2 = () => {
-    setIsOpen2(!isOpen2);
-  };
-
-  const toggleCollapse3 = () => {
-    setIsOpen3(!isOpen3);
-  };
-  const toggleCollapse4 = () => {
-    setIsOpen3(!isOpen4);
-  };
   return (
     <>
       <Container initial="hidden" animate="visible">
@@ -199,7 +185,7 @@ function Experience() {
         <ContentFrame>
           <Frame>
             <P custom={1} variants={lineVariants}>
-              June 2024-Present
+              June 2024-July 2024
             </P>
           </Frame>
           <Frame>
@@ -209,7 +195,10 @@ function Experience() {
               rel="noreferrer noopener"
             >
               <H2 custom={1} variants={lineVariants}>
-                Current Learning and Development Ongoing Course:
+                Node.js, Express, MongoDB & More: The Complete Bootcamp
+                Completed a comprehensive Udemy course on back-end development,
+                mastering the modern stack and building a feature-rich
+                real-world application.
               </H2>
               <H3 custom={1} variants={lineVariants}>
                 Node.js, Express, MongoDB & More: The Complete Bootcamp 2023
@@ -240,10 +229,45 @@ function Experience() {
                 file uploads, and deployment to production using Git.
               </P>
               <P>
-                Technologies and Skills: Node.js, Express, MongoDB, Mongoose
-                RESTful APIs, server-side rendering (Pug) Authentication,
-                security practices Payment processing (Stripe) Deployment and
-                version control (Git)
+                <H3>Key Skills Acquired:</H3>
+
+                <Li>
+                  Node.js Internals: Gained insights into the event loop,
+                  non-blocking code, streams, and module system.
+                </Li>
+                <Li>
+                  Express.js Framework: Built scalable RESTful APIs with
+                  filtering, sorting, pagination, and more.
+                </Li>
+                <Li>
+                  MongoDB & Mongoose: Performed CRUD operations, worked with
+                  geospatial data, and utilized advanced Mongoose features.
+                </Li>
+                <Li>
+                  Authentication & Authorization: Implemented secure user
+                  authentication using JSON Web Tokens (JWT), including advanced
+                  password reset mechanisms.
+                </Li>
+                <Li>
+                  Security Best Practices: Applied techniques like encryption,
+                  sanitization, and rate limiting.
+                </Li>
+                <Li>
+                  Pug Templating: Used Pug for server-side rendering of dynamic
+                  web pages.
+                </Li>
+                <Li>
+                  Stripe Integration: Handled credit card payments using the
+                  Stripe API.
+                </Li>
+                <Li>
+                  Email & File Upload: Integrated email sending and file upload
+                  functionalities.
+                </Li>
+                <Li>
+                  Deployment: Successfully deployed the application to
+                  production.
+                </Li>
               </P>
             </CollapsibleContent>
           </Frame>
