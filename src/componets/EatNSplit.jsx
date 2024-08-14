@@ -91,9 +91,6 @@ const H3 = styled.h3`
   padding-left: 10px;
   margin-bottom: 10px;
 `;
-const Title2 = styled(H3)`
-  color: #838993;
-`;
 
 const H4 = styled(H3)`
   padding-left: 0;
@@ -125,9 +122,7 @@ const P = styled.p`
   margin-bottom: 20px;
   hyphens: none;
 `;
-const P2 = styled(P)`
-  font-size: 17px;
-`;
+
 const Li = styled.li`
   font-family: "Roboto", "sytem-ui";
   font-size: 15px;
@@ -142,18 +137,7 @@ const Li = styled.li`
   hyphens: none;
   list-style-type: disc;
 `;
-const Div = styled.div`
-  place-content: flex-start space-between;
-  align-items: flex-start;
-  display: flex;
-  flex: 0 0 auto;
-  flex-flow: row;
-  height: min-content;
-  overflow: visible;
-  padding: 0px;
-  position: relative;
-  width: 100%;
-`;
+
 const Bottom = styled.div`
   display: flex;
   flex-direction: column;
@@ -161,14 +145,6 @@ const Bottom = styled.div`
   justify-content: center;
 
   padding-bottom: 8px;
-`;
-
-const Pdiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  margin-left: 206px;
-  margin-right: 200px;
 `;
 
 function EatNSplit() {
