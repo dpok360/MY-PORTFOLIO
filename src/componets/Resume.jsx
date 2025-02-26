@@ -38,7 +38,7 @@ function Resume() {
   return (
     <ResumeContainer>
       <Atag
-        href="https://drive.google.com/file/d/1cldSNc9MDWNi0NUQmOosBC4A2igapNFv/view?usp=sharing"
+        href="https://drive.google.com/file/d/1syUw1HGTFKz_HGKU7b3u_Li1I05OV-4a/view"
         target="_blank"
         rel="noreferrer noopener"
       >
