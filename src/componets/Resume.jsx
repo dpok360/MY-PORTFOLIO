@@ -1,5 +1,5 @@
-import { MdArrowOutward } from "react-icons/md";
-import styled from "styled-components";
+import { MdArrowOutward } from 'react-icons/md';
+import styled from 'styled-components';
 
 const ResumeContainer = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ const ResumeContainer = styled.div`
   margin-top: 1rem;
 `;
 const Atag = styled.a`
-  font-family: "Roboto", "sytem-ui";
+  font-family: 'Roboto', 'sytem-ui';
   font-size: 14px;
   font-style: normal;
   letter-spacing: 0px;
@@ -38,7 +38,7 @@ function Resume() {
   return (
     <ResumeContainer>
       <Atag
-        href="https://drive.google.com/file/d/1xv8VY-dplJUD8eOXbDZC7Wh8nkpt14hK/view?usp=sharing"
+        href="https://drive.google.com/file/d/1cldSNc9MDWNi0NUQmOosBC4A2igapNFv/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >

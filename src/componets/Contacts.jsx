@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Container = styled.div`
   align-content: flex-start;
@@ -27,7 +27,7 @@ const Title = styled.p`
 `;
 
 const P = styled.p`
-  font-family: "system-ui", "roboto";
+  font-family: 'system-ui', 'roboto';
   color: var(--color-grey-500);
   padding-left: 40px;
   font-size: 14px;
@@ -68,7 +68,7 @@ function Contacts() {
       </a>
 
       <a
-        href="https://drive.google.com/file/d/1xv8VY-dplJUD8eOXbDZC7Wh8nkpt14hK/view?usp=sharing"
+        href="https://drive.google.com/file/d/1cldSNc9MDWNi0NUQmOosBC4A2igapNFv/view?usp=sharing"
         target="_blank"
         rel="noreferrer noopener"
       >
